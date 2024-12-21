@@ -14,4 +14,3 @@ let isLoggegin = false
 
 console.log(typeof undefined); // Undifined
 console.log(typeof null); //object
-
