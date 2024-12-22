@@ -16,7 +16,6 @@ const anotherId = Symbol('123')
 // console.log(id === anotherId);
 
 const bigNumber = 34353454521324242n
-// console.log(typeof bigNumber);
 
 //=======Refrence (Non-Primitive)=========
 
@@ -28,3 +27,9 @@ let obj1 = {
     age : 31,
     IsLoggedIn: false,
 }
+
+const myfunction = function(){
+    console.log("Hello World");
+}
+
+console.log(typeof outsidetemp);
