@@ -33,3 +33,26 @@ const myfunction = function(){
 }
 
 console.log(typeof outsidetemp);
+
+
+// =============Stack & Heap=================
+// Stack Holds all (Primitive) DataTypes, And Heap Holds (Non-primitive) DataTypes
+
+let Youtubename = "Devenmehta"
+let anothername = Youtubename
+
+anothername = "HiteshChodury"
+
+console.log(Youtubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl",
+}
+
+let userTwo = userOne
+
+userTwo.email = "deven@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
