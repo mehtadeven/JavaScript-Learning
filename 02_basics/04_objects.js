@@ -2,7 +2,7 @@
 const tinderUser = {}
 tinderUser.id = "123abc"
 tinderUser.name = "Sammy"
-tinderUser.isloggedin = false
+tinderUser.isLoggedIn = false
 
 // console.log(tinderUser);
 
@@ -41,3 +41,12 @@ const users = [
         email : "unkown3@gmail.com"
     },
 ]
+
+users [1].email
+console.log(tinderUser);
+
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
+
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));
