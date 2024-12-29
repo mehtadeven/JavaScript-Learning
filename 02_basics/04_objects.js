@@ -43,10 +43,37 @@ const users = [
 ]
 
 users [1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+const course ={
+    coursename : "Js in Hindi",
+    price : "999",    
+    courseInstrutor : "Mehta Deven"
+}
+
+// course.courseInstrutor
+
+// const {courseInstrutor} = course
+const {courseInstrutor : Instrutor} = course //We can DeStructure The Variable
+
+// console.log(courseInstrutor);
+console.log(Instrutor);
+
+// {
+//     course : "JS hindi",
+//     "name" : "Js Hindi",
+//     price : "free",
+// }
+
+[
+    {},
+    {},
+    {}
+]
