@@ -20,3 +20,24 @@ const temperature = 13
 
 // console.log(`User Power :${score}`);
 
+
+const balance = 1000
+
+// if (balance > 500) console.log("test"),console.log("test2"); //Wrong Way 
+
+// if (balance < 500) {
+//     console.log("less than 500");
+// }else if(balance < 750) {
+//     console.log("less than 750");
+// }else if (balance < 900){
+//     console.log("less than 900"); 
+// }else {
+//     console.log("Greater than All");
+// }
+
+const userloggedIn =  true
+const debitCard = true 
+
+if (userloggedIn && debitCard) {
+    console.log("Allow to buy course");
+}
