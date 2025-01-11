@@ -37,7 +37,13 @@ const balance = 1000
 
 const userloggedIn =  true
 const debitCard = true 
+const loggedInMail = true 
+const loggedinGoogle = true 
 
 if (userloggedIn && debitCard) {
     console.log("Allow to buy course");
+}
+
+if (loggedInMail || loggedinGoogle) {
+    console.log("user logged In");
 }
